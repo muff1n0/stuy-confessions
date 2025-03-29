@@ -1,26 +1,43 @@
-.confession-title{
+.confession-title, .fieldset, .confession{
     width:90%;
-    padding:12px 20px;
     margin: auto;
     box-sizing:border-box;
     display: block;
+    background-color:white;
+    border-color:white;
+    
 }
 .gap{
     height:10px;
-}
-
-.fieldset{
-    width:90%;
-    margin:auto;
-    display:block;
 }
 .confession {
     width:90%;
     margin:auto;
     height: 40px;
     display:block;
+    padding-bottom: 10px;
 }
 
-.home-button{
+/* .home-button{
     background-size:cover;
+} */
+/* dont know if working or implementable */
+
+.confession-text, .filters-title, .confession-box{
+    font-size: 20px;
+    margin-left:26px;
+    margin-bottom:15px;
+}
+
+.Filters{
+    margin-right:5px;
+}
+body{
+    background-color: #FFDDE1;
+}
+
+button{
+    font-size: 16px;
+    background-color:#FFB8DE;
+    margin-right:17px;
 }
