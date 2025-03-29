@@ -1,0 +1,98 @@
+.confession-title, .fieldset, .confession{
+    width:90%;
+    margin: auto;
+    box-sizing:border-box;
+    display: block;
+    background-color:white;
+    border-color:white;
+    
+}
+.gap{
+    height:10px;
+}
+.confession {
+    width:90%;
+    margin:auto;
+    height: 40px;
+    display:block;
+    padding-bottom: 10px;
+}
+
+/* .home-button{
+    background-size:cover;
+} */
+/* dont know if working or implementable */
+
+.confession-text, .filters-title, .confession-box{
+    font-size: 20px;
+    margin-left:26px;
+    margin-bottom:15px;
+}
+
+.Filters{
+    margin-right:5px;
+}
+body{
+    background-color: #FFDDE1;
+}
+
+button {
+    font-size: 16px;
+    background-color:#FFB8DE;
+    margin-right:17px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar {
+    width: 150px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 100;
+    overflow-y: auto;
+    border-right: 2px solid #ddd;
+}
+
+.sidebar h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.blog-list {
+    list-style: none;
+    padding: 0;
+}
+
+.blog-list li {
+    margin-bottom: 10px;
+}
+
+.blog-list a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    display: block;
+    padding: 8px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.blog-list a:hover {
+    background: #ddd;
+}
+
+.content {
+    margin-left: 270px; /* Adjust based on sidebar width */
+    padding: 20px;
+    flex-grow: 1;
+}
+
+h1 {
+    text-align: center;
+}
