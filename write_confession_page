@@ -7,24 +7,33 @@
         <link href="styles.css" rel="stylesheet">
     </head>
     <body>
-        <button class="home-button" style="background: url(https://cdn-icons-png.flaticon.com/512/6065/6065275.png)">Home Page</button> <button>Write A Confession!</button>
+        <!-- <button class="home-button" style="background: url(https://cdn-icons-png.flaticon.com/512/6065/6065275.png)">Home Page</button> <button>Write A Confession!</button> -->
+        <!-- <button class="home-button">Home Page</button> <button>Write A Confession!</button> -->
+        
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#write">Write a New Confession!</a></li>
+            <li style="float:right"><a class="active" href="#login">Login</a></li>
+          </ul>
+
         <h1>
             <p>Write a Confession</p>
         </h1>
         <form id="survey-form">
-            <p class="confession-title">Title of Your Confession</p>
+            <p class="confession-text"><b>Title of Your Confession</b></p>
             <!-- <div class="gap"></div> -->
             <input class="confession-title" type="text" name="Title of Confession" placeholder="i.e. Don't Use the 8th Floor Bathroom" required>
             <!-- <div class="gap"></div> -->
-            <p class="filters-title">Filters</p>
+            <p class="filters-title"><b>Filters</b></p>
             <fieldset class="fieldset">
             <input class="Filters" type="checkbox">Relationships
             <input class="Filters" type="checkbox">Academic Advice
             <input class="Filters" type="checkbox">Politics
+            <input class="Filters" type="checkbox">Other
             </fieldset>
-            <!-- <div class="gap"></div> -->
-            <p class="confession-box">Enter in Your Confession</p>
-            <input class="confession" type="text" placeholder="i.e. IT STINKS??" required>
+            <p class="confession-box"><b>Enter in Your Confession</b></p>
+            <input class="confession" type="text" placeholder="i.e. IT STINKS?" required>
+            <div class="gap"></div>
             <div class="gap"></div>
             <button>Submit</button>
     </body>
