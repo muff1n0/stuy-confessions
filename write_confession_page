@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Stuy Web Confessions</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8">
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <button class="home-button" style="background: url(https://cdn-icons-png.flaticon.com/512/6065/6065275.png)">Home Page</button> <button>Write A Confession!</button>
+        <h1>
+            <p>Write a Confession</p>
+        </h1>
+        <form id="survey-form">
+            <p class="confession-title">Title of Your Confession</p>
+            <!-- <div class="gap"></div> -->
+            <input class="confession-title" type="text" name="Title of Confession" placeholder="i.e. Don't Use the 8th Floor Bathroom" required>
+            <!-- <div class="gap"></div> -->
+            <p class="filters-title">Filters</p>
+            <fieldset class="fieldset">
+            <input class="Filters" type="checkbox">Relationships
+            <input class="Filters" type="checkbox">Academic Advice
+            <input class="Filters" type="checkbox">Politics
+            </fieldset>
+            <!-- <div class="gap"></div> -->
+            <p class="confession-box">Enter in Your Confession</p>
+            <input class="confession" type="text" placeholder="i.e. IT STINKS??" required>
+            <div class="gap"></div>
+            <button>Submit</button>
+    </body>
+</html>
