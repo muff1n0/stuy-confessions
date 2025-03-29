@@ -1,0 +1,26 @@
+.confession-title{
+    width:90%;
+    padding:12px 20px;
+    margin: auto;
+    box-sizing:border-box;
+    display: block;
+}
+.gap{
+    height:10px;
+}
+
+.fieldset{
+    width:90%;
+    margin:auto;
+    display:block;
+}
+.confession {
+    width:90%;
+    margin:auto;
+    height: 40px;
+    display:block;
+}
+
+.home-button{
+    background-size:cover;
+}
