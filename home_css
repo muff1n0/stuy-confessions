@@ -140,3 +140,8 @@ p{
 h2{
     font-size: 25px;
 }
+
+.between{
+    background-color:#FFB8DE;
+    height:5px;
+}
