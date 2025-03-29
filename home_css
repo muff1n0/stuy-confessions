@@ -36,11 +36,33 @@ body{
     background-color: #FFDDE1;
 }
 
-button {
+button{
     font-size: 16px;
     background-color:#FFB8DE;
     margin-right:17px;
 }
+button:hover{
+    background-color:#ff89c8;
+}
+
+li {
+    display:inline;
+}
+
+li a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ff89c8;
+}
+
 
 .container {
     display: flex;
@@ -95,4 +117,13 @@ button {
 
 h1 {
     text-align: center;
+}
+
+.ENTRY_TITLE{
+    color: black;
+    font-size: 25px;
+}
+.ENTRY_DESCRIPTION{
+    color: black;
+    font-size: 15px;
 }
